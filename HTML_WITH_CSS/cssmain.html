@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Assignments</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #b388eb, #ffffff); /* Purple to White Gradient */
+      color: #2e003e;
+      text-align: center;
+    }
+
+    h1 {
+      color: #4a148c; /* Deep Purple */
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      text-shadow: 1px 1px 3px #e1bee7;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .assignment-btn {
+      width: 100%;
+      padding: 15px;
+      text-decoration: none;
+      background: linear-gradient(90deg, #ce93d8, #ffffff); /* Light Purple to White */
+      border-radius: 8px;
+      font-size: 1.1rem;
+      color: #6a1b9a;
+      box-shadow: 0 4px 10px rgba(100, 0, 150, 0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .assignment-btn:hover {
+      background: linear-gradient(90deg, #ba68c8, #f3e5f5);
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(100, 0, 150, 0.15);
+    }
+
+    .assignment-btn:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Assignments</h1>
+  <div class="container">
+    <a class="assignment-btn" href="../HTML_WITH_CSS/inlinecss.html" target="_blank">Inline CSS</a>
+    <a class="assignment-btn" href="../HTML_WITH_CSS/internalcss.html" target="_blank">Internal CSS</a>
+    <a class="assignment-btn" href="../HTML_WITH_CSS/externalcss.html" target="_blank">External CSS</a>
+    <a class="assignment-btn" href="../HTML_WITH_CSS/table.html" target="_blank">Timetable</a>
+    <a class="assignment-btn" href="../HTML_WITH_CSS/resume.html" target="_blank">Resume</a>
+    <a class="assignment-btn" href="../HTML_WITH_CSS/selectors.html" target="_blank">Selectors</a>
+    <a class="assignment-btn" href="../HTML_WITH_CSS/CSSAssignment.html" target="_blank">All HTML Assignment With CSS</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Demonstration Page</title>
+
+  <!-- Internal CSS -->
+  <style>
+    /* Universal Selector */
+    * {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Element selector */
+    h2 {
+      color: #2c3e50;
+    }
+
+    /* Class selector */
+    .highlight {
+      background-color: #ffeb3b;
+    }
+
+    /* ID selector */
+    #main-title {
+      color: teal;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Descendant selector */
+    .resume p {
+      margin-left: 20px;
+    }
+
+    /* Attribute selector */
+    input[type="text"] {
+      border: 2px solid #4caf50;
+    }
+
+    /* Pseudo-class */
+    a:hover {
+      color: red;
+    }
+
+    /* Website layout */
+    .nav {
+      background: #333;
+      padding: 10px;
+    }
+
+    .nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .website {
+      background: #f1f1f1;
+      padding: 10px;
+    }
+
+    /* Table styling */
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-title">HTML & CSS All-in-One Demo Page</h1>
+
+  <!-- 1. Inline CSS -->
+  <p style="color: green;">This is an example of <strong>inline CSS</strong>.</p>
+
+  <!-- 2. Timetable / Marksheet -->
+  <h2>Student Marksheet</h2>
+  <table>
+    <tr>
+      <th>Subject</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>Math</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td>92</td>
+    </tr>
+  </table>
+
+  <!-- 3. Resume -->
+  <h2>Resume</h2>
+  <div class="resume">
+    <p><strong>Name:</strong> Roshani Kadam</p>
+    <p><strong>Education:</strong> B.Tech in Computer Science</p>
+    <p><strong>Skills:</strong> HTML, CSS, Java, Spring Boot</p>
+    <p><strong>Email:</strong> roshani@example.com</p>
+  </div>
+
+  <!-- 4. Website Layout -->
+  <h2>Website Demo</h2>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="website">
+    <h3>Welcome to My Website</h3>
+    <p>This section represents a simple website layout using HTML and CSS.</p>
+    <input type="text" placeholder="Search here...">
+  </div>
+
+  <!-- 5. CSS Selectors (demonstrated above) -->
+  <p class="highlight">This text is highlighted using a class selector.</p>
+  <p>Hover over this <a href="#">link</a> to see a pseudo-class in action.</p>
+
+</body>
+</html>
